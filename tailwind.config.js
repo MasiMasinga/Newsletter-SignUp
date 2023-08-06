@@ -13,9 +13,6 @@ export default {
       fontFamily: {
         Roboto: ["Roboto, sans-serif"],
       },
-      fontSize: {
-        'p': '16px',
-      },
       screens: {
         xs: "300px",
         sm: "600px",
