@@ -1,5 +1,5 @@
 <template>
-    <button :class="`text-white ${backgroundColor} ${width} rounded-md p-3`" @click="onClick">
+    <button :class="`text-white ${backgroundColor} ${width} hover:bg-primary rounded-md p-3`" @click="onClick">
         {{ title }}
     </button>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div>
         <input
-            :class="`rounded-md ${borderColor} ${borderWidth} ${borderRadius} ${padding} ${width} ${height} ${fontSize} ${fontWeight} ${textColor} ${textAlign} ${marginTop} ${marginBottom}`"
+            :class="`rounded-md ${borderColor} ${borderWidth} ${borderRadius} ${padding} ${width} ${height} ${marginTop} ${marginBottom}`"
             :type="type" :placeholder="placeholder" :value="value" @input="onInput" />
     </div>
 </template>
@@ -41,7 +41,7 @@ export default {
         },
         borderRadius: {
             type: String,
-            default: 'rounded-sm'
+            default: 'rounded-md'
         },
         padding: {
             type: String,
@@ -62,6 +62,10 @@ export default {
         marginBottom: {
             type: String,
             default: 'mb-1'
+        },
+        required: {
+            type: Boolean,
+            default: false
         },
     }
 }

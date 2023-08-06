@@ -6,7 +6,7 @@
 
 <script>
 export default {
-    name: 'InputFieldLabel',
+    name: 'InputLabel',
     props: {
         label: {
             type: String,
@@ -18,7 +18,7 @@ export default {
         },
         fontWeight: {
             type: String,
-            default: 'font-normal'
+            default: 'font-bold'
         },
         textColor: {
             type: String,
